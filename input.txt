@@ -1,0 +1,8 @@
+convert santa.bmp santa.pgm
+convert santa.bmp santa.ppm
+blur santa.pgm
+blur santa.ppm
+crop santa.pgm 200 100 1000 800
+crop santa.ppm 0 0 1000 1000
+convert santa.ppm santa_gray.pgm
+exit

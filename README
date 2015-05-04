@@ -1,0 +1,13 @@
+//312CB_Untesu_Albert_Cristian_Tema2
+Programul meu este destinat pentru a face mai multe conversi de poze. Pentru o scriere si intelegere mai usoara am facut mai mult functii.
+Fiecare functie are un nume sugestiv.
+blur_ppm si blur_pgm sunt functii care fac blur-ul de 10 ori 
+Un blur se face prin impartirea termenului de sus, jos, stanga, dreapta.
+convert_bmp_to_pgm face conversia fisierelor binare bmp in fisiere text pgm.
+convert_bmp_to_ppm face conversia fisierelor binare bmp in fisiere text ppm.
+convert_ppm_to_pgm face conversia fisierelor text ppm in fisiere text pgm.
+blur_ppm face o poza ppm blur(de 10 ori).
+blur_pgm face o poza pgm blur(de 10 ori).
+crop face crop pe o poza ppm.
+crop2 face crop pe o poza pgm.
+functia main apeleaza toate celelalte functii de la tastatura pana la introducerea cuvantului "exit".
